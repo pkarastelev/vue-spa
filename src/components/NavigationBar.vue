@@ -62,7 +62,7 @@
                                            role="menuitem">Settings
                                         </a>
 
-                                        <a href="#" class="block px-4 py-2 text-sm text-blue-700 hover:bg-blue-100"
+                                        <a @click="$router.push('/login')" href="#" class="block px-4 py-2 text-sm text-blue-700 hover:bg-blue-100"
                                            role="menuitem">Sign out</a>
                                     </div>
                                 </div>
