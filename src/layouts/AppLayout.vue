@@ -3,7 +3,7 @@
         <navigation-bar></navigation-bar>
         <div class="wrapper flex flex-row h-full">
             <sidebar></sidebar>
-            <main class="mt-10 px-10">
+            <main class="mt-10 px-10 w-full">
                 <slot></slot>
             </main>
         </div>
@@ -11,15 +11,15 @@
 </template>
 
 <script>
-    import NavigationBar from '../components/NavigationBar'
-    import Sidebar from '../components/Sidebar'
+  import NavigationBar from '@/components/NavigationBar'
+  import Sidebar from '@/components/Sidebar'
 
-    export default {
-      components: {
-        NavigationBar,
-        Sidebar,
-      },
-    }
+  export default {
+    components: {
+      NavigationBar,
+      Sidebar,
+    },
+  }
 </script>
 
 <style>
