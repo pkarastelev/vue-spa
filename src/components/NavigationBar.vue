@@ -26,7 +26,7 @@
                     <div class="hidden md:block">
                         <div class="ml-10 flex items-baseline">
                             <router-link
-                                    class="px-3 py-2 rounded-md text-sm font-medium text-blue-300 hover:text-white hover:bg-blue-700 focus:outline-none focus:text-white focus:bg-blue-700"
+                                    class="transition-colors duration-150 px-3 py-2 rounded-md text-sm font-medium text-blue-300 hover:text-white hover:bg-blue-700 focus:outline-none focus:text-white focus:bg-blue-700"
                                     to="/">Dashboard
                             </router-link>
                         </div>

@@ -16,7 +16,7 @@
             </div>
 
             <div class="mt-8">
-                <button @click="$router.push('/')" class="w-full font-bold bg-blue-500 hover:bg-blue-600 rounded-lg py-3 text-white">Login</button>
+                <button @click="$router.push('/')" class="transition-colors duration-150 w-full font-bold bg-blue-500 hover:bg-blue-600 rounded-lg py-3 text-white">Anmelden</button>
             </div>
         </div>
     </auth-layout>
