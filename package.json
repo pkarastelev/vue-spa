@@ -17,7 +17,7 @@
     "@vue/cli-plugin-babel": "~4.4.0",
     "@vue/cli-plugin-router": "~4.4.0",
     "@vue/cli-service": "~4.4.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "miragejs": "^0.1.40",
     "tailwindcss": "^1.4.6",
     "vue-template-compiler": "^2.6.11"
